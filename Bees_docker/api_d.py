@@ -50,7 +50,6 @@ df_resultados = pd.DataFrame(resultados)
 num_linhas = len(df_resultados)
 print(f"Quantidade de linhas: {num_linhas}")
 
-#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\Users\taran\OneDrive\Documentos\Bees_docker\bees-440303-a4fa6e2ef5ea.json"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/app/bees-440303-a4fa6e2ef5ea.json"
 
 client = bigquery.Client()

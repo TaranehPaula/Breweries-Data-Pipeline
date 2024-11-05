@@ -1,6 +1,6 @@
 # Breweries-Data-Pipeline
 
-Este projeto utiliza a API Open Brewery DB para construir um pipeline de dados em uma arquitetura de data lake seguindo a abordagem medallion (Bronze, Silver e Gold). A ferramenta de orquestração gerencia o agendamento, tratamento de erros e tentativas de reexecução. 
+Este projeto utiliza a API Open Brewery DB para construir um pipeline de dados em uma arquitetura de data lake seguindo a abordagem medallion (Bronze, Silver e Gold). 
 
 ## Índice
 1. [API](#api)
@@ -29,9 +29,10 @@ Optamos pelo Apache Airflow para orquestrar o pipeline de dados devido a suas fu
 A documentação encontra-se no documento 'airflow.pdf'.(encaminhada por e-mail)
 
 ### Arquivos de Configuração (enviado por e-mail/anexo)
-- Os seguintes arquivos:  'airflow.pdf' contém os exemplos criados no airflow.
-                          'gcp_docker.pdf' contém a configuração e execução do Docker e Cloud.
-                          'monitoramento_alertas.pdf' define uma sugestão de monitoramento e alerta.
+- Os seguintes arquivos:  
+- **airflow.pdf** contém os exemplos criados no airflow.
+- **gcp_docker.pdf** contém a configuração e execução do Docker e Cloud.
+- **monitoramento_alertas.pdf** define uma sugestão de monitoramento e alerta.
 
 ## 3. Linguagem
 Utilizei a linguagem Python para a criação desse projeto.
