@@ -1,16 +1,14 @@
 # Breweries-Data-Pipeline
 
-Este projeto utiliza a API Open Brewery DB para construir um pipeline de dados em uma arquitetura de data lake seguindo a abordagem medallion (Bronze, Silver e Gold). 
+Este projeto utiliza a API Open Brewery DB para construir um pipeline de dados em uma Arquitetura de Data Lake seguindo a abordagem medallion (Bronze, Silver e Gold). 
 
 ## Índice
 1. [API](#api)
 2. [Ferramenta de Orquestração](#ferramenta-de-orquestração)
 3. [Linguagem](#linguagem)
 4. [Containerização](#containerização)
-5. [Arquitetura de Data Lake](#arquitetura-de-data-lake)
-6. [Monitoramento e Alertas](#monitoramento-e-alertas)
-7. [Repositório](#repositório)
-8. [Serviços em Nuvem](#serviços-em-nuvem)
+5. [Monitoramento e Alertas](#monitoramento-e-alertas)
+6. [Serviços em Nuvem](#serviços-em-nuvem)
 
 ---
 
