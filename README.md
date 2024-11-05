@@ -37,10 +37,13 @@ A documentação encontra-se no documento 'airflow.pdf'.(encaminhada por e-mail)
 Utilizei a linguagem Python para a criação desse projeto.
 
 ## 4. Containerização
-Para modularizar o ambiente, criei 03 contêineres Docker.
-Contêiner 1: Consumo da API (Camada Bronze) - (arquivo em anexo)
-Contêiner 2: Transformação e Particionamento (Camada Silver) - (arquivo em anexo)
-Contêiner 3: Agregação e Relatórios (Camada Gold)
+Para modularizar o ambiente, criei 03 contêineres Docker:
+
+- **Contêiner 1**: Consumo da API (Camada Bronze) - (arquivo em anexo)
+
+- **Contêiner 2**: Transformação e Particionamento (Camada Silver) - (arquivo em anexo)
+
+- **Contêiner 3**: Agregação e Relatórios (Camada Gold) - (arquivo em anexo)
 
 A documentação encontra-se no gcp_docker.pdf'(encaminhada por e-mail).
 

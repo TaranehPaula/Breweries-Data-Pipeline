@@ -1,0 +1,7 @@
+requests
+pandas
+google-cloud-bigquery
+google-cloud-storage
+pyspark
+gcsfs
+pyarrow
